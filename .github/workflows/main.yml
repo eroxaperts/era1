@@ -1,0 +1,15 @@
+name: odoo
+
+on:
+  push:
+    branches: 
+      - master
+    
+
+jobs:
+  my_odoo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: era
+      uses: actions/checkout@v3
+    
